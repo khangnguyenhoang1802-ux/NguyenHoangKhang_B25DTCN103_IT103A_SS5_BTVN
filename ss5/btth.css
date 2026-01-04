@@ -1,0 +1,56 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f9ff;
+}
+#header {
+    color: #ffffff;
+    background-color: #0284c7;
+    font-size: 17px;
+    text-align: center;
+}
+#header h1 {
+    letter-spacing: 2px;
+}
+.intro h2{
+    color: #0369a1;
+}
+.philosophy h2{
+    color: #0369a1;
+}
+.philosophy i{
+    color: #1972a2;
+}
+.service h2{
+    color: #0369a1;
+}
+#service-item::before {
+    content:"🦷 ";
+}
+.service ul {
+    list-style-type: none;
+    cursor: pointer;
+}
+#service-item:hover {
+    color: #0284c7;
+}
+.notice h2{
+    color: #0369a1;
+}
+#notice {   
+    color: red;
+}
+.contact h2{
+    color: #0369a1;
+}
+#contact::before {   
+    color: #0369a1;
+    cursor: pointer;
+}
+#footer {
+    color: white;
+    background-color: #0284c7;
+    text-align: center;
+    font-family: Arial, sans-serif;
+    font-size: 17px;
+    line-height: 50px;
+}
